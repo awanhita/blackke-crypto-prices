@@ -1,0 +1,7 @@
+name = "blackke-crypto-prices"
+main = "src/worker.js"
+compatibility_date = "2026-11-15"
+
+# No vars, no secrets, no KV/R2/Durable Objects.
+# All configuration (payout wallet, price, facilitator) is a constant in
+# src/worker.js so the deployed Worker is fully reproducible from this repo.
