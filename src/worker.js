@@ -39,7 +39,7 @@ const FACILITATOR = "https://facilitator.payai.network";
 const PRICE_ATOMIC = "1000"; // 1000 micro-USDC = $0.001 (USDC has 6 decimals)
 const PRICE_DISPLAY = "$0.001 USDC";
 const MAX_TIMEOUT_SECONDS = 300;
-const ASSET_EXTRA = { name: "USDC", version: "2" };
+const ASSET_EXTRA = { name: "USD Coin", version: "2" };
 
 const SYMBOLS = { BTC: "bitcoin", ETH: "ethereum", SOL: "solana" };
 const COINGECKO_URL =
